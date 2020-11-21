@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+	"fmt"
 	"google.golang.org/grpc"
 	"grpc-server/pkg/api"
 	"log"
@@ -11,7 +12,7 @@ import (
 
 func main() {
 	flag.Parse()
-
+	fmt.Println("Example")
 	if flag.NArg() < 2 {
 		log.Fatal("Not enough arguments")
 	}
