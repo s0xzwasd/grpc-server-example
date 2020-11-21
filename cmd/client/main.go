@@ -3,28 +3,14 @@ package main
 import (
 	"context"
 	"flag"
-	"fmt"
 	"google.golang.org/grpc"
 	"grpc-server/pkg/api"
 	"log"
 	"strconv"
 )
 
-type MkShWalkerPathElement struct {
-	// TODO: It might be worth defining negative indexes to correspond
-	// to the fields "Cond", "Action", "Else", etc.
-	Index   int
-	Element interface{}
-}
-
 func main() {
-	a := 333
-	b := 31232
-	const pi = 3.14321123
-
 	flag.Parse()
-
-	fmt.Println(a, b, pi)
 
 	if flag.NArg() < 2 {
 		log.Fatal("Not enough arguments")
