@@ -2,7 +2,7 @@ package adder
 
 import (
 	"context"
-	"grpc-server/pkg/api"
+	"github.com/s0xzwasd/grpc-server/pkg/api"
 )
 
 type GRPCServer struct {

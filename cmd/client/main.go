@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"flag"
+	"github.com/s0xzwasd/grpc-server/pkg/api"
 	"google.golang.org/grpc"
-	"grpc-server/pkg/api"
 	"log"
 	"strconv"
 )

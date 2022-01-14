@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/s0xzwasd/grpc-server/pkg/adder"
+	"github.com/s0xzwasd/grpc-server/pkg/api"
 	"google.golang.org/grpc"
-	"grpc-server/pkg/adder"
-	"grpc-server/pkg/api"
 	"log"
 	"net"
 )
